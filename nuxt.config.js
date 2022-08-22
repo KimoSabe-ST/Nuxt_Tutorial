@@ -1,4 +1,5 @@
 export default {
+  mode: 'universal',
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'real-world-nuxt',
@@ -15,7 +16,6 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
   ],
@@ -42,6 +42,9 @@ export default {
     // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
     baseURL: '/',
   },
+
+  //Loading Bar color:
+  loading: { color: '#39b982' },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
